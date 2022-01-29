@@ -6,10 +6,10 @@ There are two errors if you want to try it out in your computer.
 
 
 1. AttributeError: module 'gym' has no attribute 'make' 
-'''
+```
 !pip install gym[atari]
 !pip install gym[all]
-'''
+```
 Then restart kernel
 
 
