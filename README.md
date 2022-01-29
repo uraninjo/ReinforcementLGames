@@ -1,6 +1,8 @@
 # ReinforcementLGames
 
-I built a model that plays cartpole and space invaders using reinforcement learning. I trained cartpole 5k,7k,10k times. 
+I built a model that plays cartpole and space invaders using reinforcement learning. I trained cartpole 5k,7k,10k times. For better results you may want to train it more and more.
+
+Also, some of the games can be trained by simply changing the name of the game...
 
 There are two errors if you want to try it out in your computer.
 
