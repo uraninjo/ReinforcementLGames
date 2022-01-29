@@ -5,7 +5,7 @@ I built a model that plays cartpole and space invaders using reinforcement learn
 There are two errors if you want to try it out in your computer.
 
 
-##1. AttributeError: module 'gym' has no attribute 'make' 
+## 1. AttributeError: module 'gym' has no attribute 'make' 
 ```
 !pip install gym[atari]
 !pip install gym[all]
@@ -13,7 +13,7 @@ There are two errors if you want to try it out in your computer.
 Then restart kernel
 
 
-##2. AttributeError: 'Sequential' object has no attribute '_compile_time_distribution_strategy'
+## 2. AttributeError: 'Sequential' object has no attribute '_compile_time_distribution_strategy'
 ![1](https://user-images.githubusercontent.com/74925286/151668584-bf71c9d4-dd4c-48bd-b581-778b3d91c30c.png)
 
 Go to marked directory, mine is
