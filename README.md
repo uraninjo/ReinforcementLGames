@@ -27,3 +27,12 @@ Change this line same as second screenshoot
 ![Ekran görüntüsü 2022-01-29 175131](https://user-images.githubusercontent.com/74925286/151668602-7687021e-c337-4732-b265-1f097b3e8ac1.png)
 
 ![Ekran görüntüsü 2022-01-29 175201](https://user-images.githubusercontent.com/74925286/151668605-744d9856-85d8-4454-8a57-df5ada675c44.png)
+
+
+## 3. TypeError: Argument `fetch` = <tf.Variable 'dense/kernel:0' shape=(4, 24) dtype=float32> has invalid type "ResourceVariable" must be a string or Tensor. (Can not convert a ResourceVariable into a Tensor or Operation.)
+
+Before creating the model use
+```
+del model
+```
+
